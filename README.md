@@ -1,5 +1,8 @@
 # Quoridor in Haskell 
 
+Quoridor game, in addition to AI to play with user.
+Applying search techniques and some position evaluation on the game tree in order to choose the best move.
+
 ### Installation instructions 
 
 You need GHC, the Cabal build system and the Stack tool. See [https://www.haskell.org/platform/](https://www.haskell.org/platform/). 
