@@ -1,0 +1,7 @@
+*** PART III (10 pt) ***
+
+Is it a good idea to start the game with the Reed opening?
+
+Answer here.
+
+At first, my plan was to let a Minimax player to play against the Reed player a couple of times and calculate the result from that. However, it looks like the generateGameTree is very slow for 9x9 board since there are a lot of possible actions at each state. Therefore, very large branching factor. Because of that, I am only able to do it in reasonable time when the depth is 2 and breadth 20. Most of the time, the Minimax AI would win therefore from the result, I'd conclude that if the depth is 2 and breadth 20, then the opening is not very good. Also, in reality, my AI does not choose the best move at all. Therefore, my result is not very reliable at all.  
