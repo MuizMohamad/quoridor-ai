@@ -1,6 +1,6 @@
 # Quoridor in Haskell 
 
-Quoridor game, in addition to AI to play with user.
+Quoridor game, in addition to AI to play with user.  
 Applying search techniques and some position evaluation on the game tree in order to choose the best move.
 
 ### Installation instructions 
