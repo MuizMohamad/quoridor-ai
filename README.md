@@ -13,16 +13,16 @@ The easiest way to play the game is to go to the `src` directory, run `ghci Main
 
 Actions in the game:  
 • Moving a step is recorded as the destination cell. For instance, the starting player's first  
-action could be 'd1', which would mean they've moved to the left.  
+action could be `d1`, which would mean they've moved to the left.  
 
 1 https://en.wikipedia.org/wiki/Quoridor  
 2 https://quoridorstrats.wordpress.com/notation/  
   
-• Placing a wall is recorded as a cell plus 'h' (horizontal) or 'v' (vertical). The wall is placed
+• Placing a wall is recorded as a cell plus `h` (horizontal) or `v` (vertical). The wall is placed
 in between the cell and its top-right neighbour, in the specified direction.  
 
 Examples:
-{ `e3v' corresponds to the wall between columns `e' and `f' spanning columns `3' and `4'.
+ `e3v` corresponds to the wall between columns `e` and `f` spanning columns `3` and `4`.
 
 ### Run the tests 
 
